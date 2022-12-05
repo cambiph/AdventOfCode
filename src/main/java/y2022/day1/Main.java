@@ -1,8 +1,8 @@
 package y2022.day1;
 
+import y2022.common.FileReader;
+
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        List<String> lines = Files.readAllLines(Path.of("src/main/java/y2022/day1/input.txt"));
+        List<String> lines = FileReader.readFile(2022, 1);
         List<Integer> partitions = partitionList(lines);
         Collections.sort(partitions, Collections.reverseOrder());
         System.out.println("Most calories: " + partitions.get(0));
