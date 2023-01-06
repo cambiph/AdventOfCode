@@ -1,6 +1,6 @@
 package y2022.day3;
 
-import y2022.common.FileReader;
+import common.FileReader;
 
 import java.util.stream.IntStream;
 

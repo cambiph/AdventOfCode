@@ -1,6 +1,6 @@
 package y2022.day1;
 
-import y2022.common.FileReader;
+import common.FileReader;
 
 import java.io.IOException;
 import java.util.ArrayList;

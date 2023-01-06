@@ -1,4 +1,4 @@
-package y2022.common;
+package common;
 
 import java.io.IOException;
 import java.nio.file.Files;
